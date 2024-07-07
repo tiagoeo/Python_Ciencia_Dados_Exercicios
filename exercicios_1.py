@@ -29,3 +29,11 @@ print('index -1 = ', nome[-1])
 print('index 2:5 = ', nome[2:5])
 print('index 4: = ', nome[4:])
 print('index :5 = ', nome[:5])
+
+# Funções Auxiliares de String
+nm = "João Paulo"
+print(nm.capitalize())
+print(nm.lower())
+print(nm.upper())
+print(nm.swapcase())
+print(nm.title())
