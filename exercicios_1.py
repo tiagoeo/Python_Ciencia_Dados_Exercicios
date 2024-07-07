@@ -21,3 +21,11 @@ print(f"a = {a} e b = {b}")
 # Associação
 'primeiro' in ['primeiro', 'segundo', 'terceiro']
 'b' not in 'calcio'
+
+# Indexando
+nome = 'borboleta'
+print('index 0 = ', nome[0])
+print('index -1 = ', nome[-1])
+print('index 2:5 = ', nome[2:5])
+print('index 4: = ', nome[4:])
+print('index :5 = ', nome[:5])
