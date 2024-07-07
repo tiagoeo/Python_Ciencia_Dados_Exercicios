@@ -37,3 +37,7 @@ print(nm.lower())
 print(nm.upper())
 print(nm.swapcase())
 print(nm.title())
+
+# Strings \t = tabulação; \r muda linha; \n nova linha, para string bruta usa-se
+windows_local = r"c:\users\public\desktop\teste"
+print(windows_local)
