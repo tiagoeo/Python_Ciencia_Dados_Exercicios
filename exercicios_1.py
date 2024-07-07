@@ -17,3 +17,7 @@ b = a**3
 print('a = ', a)
 print('b', b, sep=' = ')
 print(f"a = {a} e b = {b}")
+
+# Associação
+'primeiro' in ['primeiro', 'segundo', 'terceiro']
+'b' not in 'calcio'
