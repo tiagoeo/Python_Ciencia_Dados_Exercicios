@@ -20,3 +20,17 @@ pessoa3 = {'nome' : 'Paulo', 'idade' : 34}
 print(pessoa1)
 print(pessoa2)
 print(pessoa3)
+
+keys = pessoa1.keys()
+print(keys)
+
+valores = pessoa1.values()
+print(valores)
+
+itens = pessoa1.items()
+print(itens)
+
+# Saber dicionário possui chave
+'nome' in pessoa1.keys()
+
+print(pessoa1.get('ano'))
