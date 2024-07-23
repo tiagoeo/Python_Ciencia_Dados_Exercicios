@@ -20,3 +20,6 @@ print('subconj1 é superconjunto próprio de subconj2: ', subconj1.issuperset(su
 
 # União
 print('subconj1 união com subconj2', subconj1.union(subconj2))
+
+# Interseção
+print('subconj1 Interseção com subconj2', subconj1.intersection(subconj2))
