@@ -17,3 +17,6 @@ print('subconj1 é subconjunto de subconj2: ', subconj1.issubset(subconj2))
 # Subconjuntos próprios
 print('subconj1 é subconjunto próprio de subconj2: ', subconj1 < subconj2)
 print('subconj1 é superconjunto próprio de subconj2: ', subconj1.issuperset(subconj2))
+
+# União
+print('subconj1 união com subconj2', subconj1.union(subconj2))
