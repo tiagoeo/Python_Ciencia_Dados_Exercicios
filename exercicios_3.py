@@ -26,3 +26,11 @@ print('subconj1 interseção com subconj2', subconj1.intersection(subconj2))
 
 # Diferença
 print('subconj1 diferença com subconj2', subconj1.difference(subconj2))
+
+# Atualizando os conjuntos
+conj3 = {0, 1 , 2, 3}
+print('conj3 inicial', conj3)
+conj3.update({4, 5, 6, 7, 8})
+conj3.update([9, 10])
+conj3.update(range(11, 15))
+print('conj3 após o update', conj3)
