@@ -22,4 +22,7 @@ print('subconj1 é superconjunto próprio de subconj2: ', subconj1.issuperset(su
 print('subconj1 união com subconj2', subconj1.union(subconj2))
 
 # Interseção
-print('subconj1 Interseção com subconj2', subconj1.intersection(subconj2))
+print('subconj1 interseção com subconj2', subconj1.intersection(subconj2))
+
+# Diferença
+print('subconj1 diferença com subconj2', subconj1.difference(subconj2))
